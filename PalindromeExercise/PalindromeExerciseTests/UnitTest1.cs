@@ -1,4 +1,5 @@
 using System;
+using PalindromeExercise;
 using Xunit;
 
 namespace PalindromeExerciseTests
@@ -16,7 +17,7 @@ namespace PalindromeExerciseTests
             var wordSmith = new WordSmith();
 
             //Act
-            bool ans = wordSmith.IsAPalindromeTest(word);
+            bool ans = wordSmith.IsAPalindrome(word);
 
             //Assert
             Assert.Equal(expected, ans);
